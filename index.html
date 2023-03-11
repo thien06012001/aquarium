@@ -1,13 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Aquarium</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <nav class="nav">
+      <h1 class="nav-elements">Home Page</h1>
+      <h1 class="nav-elements">Category</h1>
+      <h1 class="nav-elements">Contact</h1>
+    </nav>
+    <img
+      src="https://cdn2.f-cdn.com/contestentries/1645260/35866386/5db9cc1f169bf_thumb900.jpg"
+      alt="Aquarium picture"
+    />
+    <div class="category">
+      <h1 style="text-align: center">Aquarium Store</h1>
+      <table>
+        <tr>
+          <th>Fish</th>
+          <th>Description</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td rowspan="2">
+            <img
+              src="https://wikicacanh.com/wp-content/uploads/2022/07/guppykoired-1.png"
+              alt=""
+              style="width: 300px"
+            />
+          </td>
+          <td class="money">Name: Red Koi Guppy</td>
+          <td rowspan="2">5$</td>
+        </tr>
+        <tr>
+          <td>PH: 6.8 to 7.5</td>
+        </tr>
+        <tr>
+          <td rowspan="2">
+            <img
+              src="https://cacanhdep.vn/thumbs/444x358x2/upload/news/anh-chup-man-hinh-2022-05-25-luc-194529-9629.png"
+              alt=""
+              style="width: 300px"
+            />
+          </td>
+          <td class="money">Name: Golden Guppy</td>
+          <td rowspan="2">3$</td>
+        </tr>
+        <tr>
+          <td>PH: 6 to 8</td>
+        </tr>
+        <tr>
+          <td rowspan="2">
+            <img
+              src="https://static.wixstatic.com/media/e1f4f7_92037c7a35d7495a859383dd37556c18~mv2.png/v1/fill/w_618,h_900,al_c/e1f4f7_92037c7a35d7495a859383dd37556c18~mv2.png"
+              alt=""
+              style="width: 300px"
+            />
+          </td>
+          <td class="money">Name: Purple Dragon Guppy</td>
+          <td rowspan="2">6$</td>
+        </tr>
+        <tr>
+          <td>PH: 6 to 7</td>
+        </tr>
+      </table>
+    </div>
+
+    <div style="display: flex; flex-direction: column; background-color: white; width: 500px; height: 300px ; margin:auto; border: 1px solid black; align-items: center; justify-content: center;">
+      <h1 style="text-align: center">Contact Us</h1>
+      <form action="" style="display: flex; flex-direction: column; height: 70%;">
+        <div style="display: flex; justify-content: center; margin: auto;">
+          <label style="width: 100px;">Name:</label>
+          <div style="width: 237px;"">
+            <input type="text" placeholder="Enter your name" style="width: 100%;"></input>
+          </div>
+          
+        </div>
+        <div style="display: flex; justify-content: center; margin: auto;">
+          <label style="width: 100px;">Email:</label>
+          <div style="width: 237px;" >
+            <input type="email" placeholder="Enter your Email" style="width: 100%;" />
+          </div>
+          
+        </div>
+        <div style="display: flex; justify-content: center; margin: auto;">
+          <label style="width: 100px;">Messages:</label>
+          <div style="width: 237px;">
+            <textarea name="" id="" rows="6" maxlength="3000" style="display: block; width: 100%; resize: none"></textarea>
+          </div>
+          
+        </div>
+         <button style="height: 30px; background-color: #0069d9; cursor: pointer;">Submit</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>

@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #3b82f6;
+    display: flex;
+    flex-direction: column;
+}
+.nav {
+    display: flex;
+    padding: 10px;
+    background-color: #3b82f6;
+    color: white;
+    font-weight: 600;
+}
+
+.nav-elements {
+    margin: auto;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #3b82f6;
+}
+
+table,th,td{
+    border: 1px solid black;
+    text-align: center;
+}
+table tr{
+    height: 100px;
+}
+table th{
+  
+}
+table {
+    width: 60%;
+}
+.money{
+  
+}
+.place{
+ 
+}
+img{
+    width: 100%;
+    height: 100%;
+    
+}
