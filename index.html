@@ -30,7 +30,7 @@
             <img
               src="https://wikicacanh.com/wp-content/uploads/2022/07/guppykoired-1.png"
               alt=""
-              style="width: 300px"
+              class="fish"
             />
           </td>
           <td class="money">Name: Red Koi Guppy</td>
@@ -44,7 +44,7 @@
             <img
               src="https://cacanhdep.vn/thumbs/444x358x2/upload/news/anh-chup-man-hinh-2022-05-25-luc-194529-9629.png"
               alt=""
-              style="width: 300px"
+              class="fish"
             />
           </td>
           <td class="money">Name: Golden Guppy</td>
@@ -58,7 +58,7 @@
             <img
               src="https://static.wixstatic.com/media/e1f4f7_92037c7a35d7495a859383dd37556c18~mv2.png/v1/fill/w_618,h_900,al_c/e1f4f7_92037c7a35d7495a859383dd37556c18~mv2.png"
               alt=""
-              style="width: 300px"
+              class="fish"
             />
           </td>
           <td class="money">Name: Purple Dragon Guppy</td>
@@ -70,31 +70,59 @@
       </table>
     </div>
 
-    <div style="display: flex; flex-direction: column; background-color: white; width: 500px; height: 300px ; margin:auto; border: 1px solid black; align-items: center; justify-content: center;">
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 500px;
+        height: 300px;
+        margin: auto;
+        border: 1px solid black;
+        align-items: center;
+        justify-content: center;
+      "
+    >
       <h1 style="text-align: center">Contact Us</h1>
-      <form action="" style="display: flex; flex-direction: column; height: 70%;">
-        <div style="display: flex; justify-content: center; margin: auto;">
-          <label style="width: 100px;">Name:</label>
-          <div style="width: 237px;"">
-            <input type="text" placeholder="Enter your name" style="width: 100%;"></input>
-          </div>
+      <form
+        action=""
+        style="display: flex; flex-direction: column; height: 70%"
+      >
+        <div class="form-elements">
+          <label style="width: 100px">Name:</label>
+          <input
+            class="form-input"
+            type="text"
+            placeholder="Enter your name"
           
+          />
         </div>
-        <div style="display: flex; justify-content: center; margin: auto;">
-          <label style="width: 100px;">Email:</label>
-          <div style="width: 237px;" >
-            <input type="email" placeholder="Enter your Email" style="width: 100%;" />
-          </div>
-          
+
+        <div class="form-elements">
+          <label style="width: 100px">Email:</label>
+          <input
+            class="form-input"
+            type="email"
+            placeholder="Enter your Email"
+         
+          />
         </div>
-        <div style="display: flex; justify-content: center; margin: auto;">
-          <label style="width: 100px;">Messages:</label>
-          <div style="width: 237px;">
-            <textarea name="" id="" rows="6" maxlength="3000" style="display: block; width: 100%; resize: none"></textarea>
-          </div>
-          
+        <div class="form-elements">
+          <label style="width: 100px">Messages:</label>
+          <textarea
+            class="form-input"
+            name=""
+            id=""
+            rows="6"
+            maxlength="3000"
+            style="resize: none"
+          ></textarea>
         </div>
-         <button style="height: 30px; background-color: #0069d9; cursor: pointer;">Submit</button>
+        <button
+          class="form-button"
+        >
+          Submit
+        </button>
       </form>
     </div>
     <script src="script.js"></script>

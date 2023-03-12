@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     background-color: #3b82f6;
     display: flex;
     flex-direction: column;
 }
+
 .nav {
     display: flex;
     padding: 10px;
@@ -27,27 +29,39 @@ body {
     background-color: #3b82f6;
 }
 
-table,th,td{
+table,
+th,
+td {
     border: 1px solid black;
     text-align: center;
 }
-table tr{
+
+table tr {
     height: 100px;
 }
-table th{
-  
-}
+
+table th {}
+
 table {
-    width: 60%;
-}
-.money{
-  
-}
-.place{
- 
-}
-img{
     width: 100%;
-    height: 100%;
-    
+}
+
+.fish {
+    width: 300px;
+}
+
+.form-elements {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.form-input {
+    width: 237px;
+}
+
+.form-button {
+    height: 30px;
+    background-color: #0069d9;
+    cursor: pointer;
 }
